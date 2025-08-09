@@ -1410,7 +1410,7 @@ figcaption {
   box-sizing: border-box;
   aspect-ratio: auto;
   object-fit: cover;
-  object-position: 72% 50%;
+  object-position: 50% 50%;
   width: 100%;
   height: 110%;
   position: absolute;
@@ -1632,6 +1632,11 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+}
+
+.main-blog-post {
+  font-family: Overusedgrotesk, Arial, sans-serif;
+  font-weight: 400;
 }
 
 .main-blog-post li {
@@ -3837,6 +3842,10 @@ figcaption {
     padding-bottom: 100px;
   }
 
+  .paralax-image {
+    object-position: 28% 50%;
+  }
+
   .section-photo {
     min-height: 500px;
   }
@@ -4117,6 +4126,11 @@ figcaption {
 
   .hero-main-title {
     font-size: 38vw;
+  }
+
+  .hero-main-title.for-inner {
+    text-align: left;
+    font-size: 26vw;
   }
 
   .hero-wrapper {
