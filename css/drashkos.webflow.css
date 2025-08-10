@@ -1453,7 +1453,7 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  inset: -5% 0% 0%;
+  inset: -10% 0% 0%;
   overflow: clip;
 }
 
@@ -2590,6 +2590,7 @@ figcaption {
 .work-title {
   box-sizing: content-box;
   color: var(--main-color);
+  text-align: center;
   text-transform: uppercase;
   align-self: auto;
   font-family: Overusedgrotesk, Arial, sans-serif;
@@ -2663,7 +2664,7 @@ figcaption {
 
 .fun-number.second {
   text-align: left;
-  font-size: 15vw;
+  font-size: 12vw;
   position: relative;
 }
 
@@ -4002,7 +4003,8 @@ figcaption {
   }
 
   .work-title {
-    font-size: 7vw;
+    font-size: 4vw;
+    font-weight: 400;
   }
 
   .top-part {
@@ -4010,7 +4012,7 @@ figcaption {
   }
 
   .top-text {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .fun-facts-grid._3-column {
