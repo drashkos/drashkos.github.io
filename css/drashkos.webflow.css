@@ -1450,8 +1450,10 @@ figcaption {
   object-position: 50% 52%;
   width: 100%;
   height: 110%;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
-  bottom: 0;
+  inset: -5% 0% 0%;
   overflow: clip;
 }
 
@@ -3898,7 +3900,8 @@ figcaption {
   }
 
   .paralax-image {
-    object-position: 28% 50%;
+    box-sizing: border-box;
+    object-fit: cover;
   }
 
   .section-photo {
@@ -3945,6 +3948,10 @@ figcaption {
   .navigation-link {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .hero-main-title.for-inner {
+    font-size: 22vw;
   }
 
   .hero-text-wrapper {
@@ -3995,11 +4002,15 @@ figcaption {
   }
 
   .work-title {
-    font-size: 17vw;
+    font-size: 7vw;
   }
 
   .top-part {
     padding: 30px 25px;
+  }
+
+  .top-text {
+    font-size: 14px;
   }
 
   .fun-facts-grid._3-column {
